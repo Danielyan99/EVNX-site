@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="header-top-fixed">
+			<div class="header-top">
+				<div class="container-product">
+					<div class="header-top__inner">
+						<div id="burger-btn"></div>
+						<div class="header__logo">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<nav class="header__nav">
+							<ul>
+								<li><a class="header__nav-item" href="index.html">home</a></li>
+								<span></span>
+								<li><a class="header__nav-item blog" href="#">blog</a></li>
+								<span></span>
+								<li id="category"><a class="active header__nav-item category" href="category.html">category
+									<strong class="red-arrow"><img src="img/red-arrow.png" alt=""></strong></a>
+									<div class="category-after">
+										<ul class="category-after__inner">
+											<a href="#"><div><li><img src="img/category-1.png" alt="">full face helmet</li></div></a>
+											<hr>
+											<a href="#"><div><li><img src="img/category-2.png" alt="">modular helmet</li></div></a>
+											<hr>
+											<a href="#"><div><li><img src="img/category-3.png" alt="">half face helmet</li></div></a>
+										</ul>
+									</div>
+									
+								</li>
+								<span></span>
+								<li><a class="header__nav-item" href="contacts.html">contacts</a></li>
+							</ul>
+						</nav>
+						<div class="header__sale">
+							<div class="header__sale_currency">
+								<div class="header__select">
+									<div class="arrow__down"><img src="img/red-arrow.png" alt=""></div>
+									<select id="Brand"> 
+										<option value="">USD</option>
+										<option value="">AMD</option>
+										<option value="">EURO</option>
+									</select>
+								</div>
+							</div>	
+							<div class="header__sale_search">
+								<input type="text" placeholder="SEARCH">
+								<i class="fas fa-search"></i>
+							</div>
+							<div class="header__sale_icons">
+								<a href="cart.html"><img src="img/cart.png" alt=""></a>
+								<a href="#"><img src="img/user.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>	
+	<div class="product-main header-item">
+		<div class="product-main__left">
+			<hr>
+			<div class="product-main__intro">
+				<a href="category.html" class="categories-link">
+					<i class="fas fa-arrow-left"></i>
+					<span href="">back to categories</span>
+				</a>
+				<h2>Teixeira<br>Adventure</h2>
+				<span>$125.9</span>
+				<h4>color</h4>
+				<div class="product__colors">
+					<div class="product__colors__item active">
+						<div class="product__item__active"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="product__colors__item">
+						<div class="product__item__active"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="product__colors__item">
+						<div class="product__item__active"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="product__colors__item">
+						<div class="product__item__active"><i class="fas fa-check"></i></div>
+					</div>
+				</div>
+				<h4>size</h4>
+				<div class="product__size">
+					<div class="product__size__item">S</div>
+					<div class="product__size__item active">M</div>
+					<div class="product__size__item">L</div>
+					<div class="product__size__item">XL</div>
+				</div>
+				<div class="product__counter">
+					<div class="counter__minus">-</div>
+					<div class="counter__current">1</div>
+					<div class="counter__plus">+</div>
+				</div>
+				<div class="add-cart__btn">
+					<a href="#">add to cart</a>
+				</div>
+				<div class="share__btn">
+					<img src="img/link.png" alt="">
+					<a href="#">share this</a>
+				</div>
+			</div>
+		</div>
+		<div class="product-main__right">
+			<div class="product-right__slider">
+				<div class="arrow-left"><i class="fas fa-arrow-left"></i></div>
+				<div class="arrow-right"><i class="fas fa-arrow-right"></i></div>
+				<div class="product-slider__inner">
+					<div class="product-slider__item active">
+						<img src="img/product-slider1.png" alt="">
+					</div>
+					<div class="product-slider__item">
+						<img src="img/product-slider1.png" alt="">
+					</div>
+					<div class="product-slider__item">
+						<img src="img/product-slider1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="product-slider__bottom">
+				<div class="dots">
+					<div class="dot active"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+				<div class="product-specifications">
+					<a href="#" id="specifications-btn">specifications <i class="fas fa-arrow-down"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="product-main__specifications">
+			<div class="product-specifications__inner">
+				<div class="product-specifications__btns">
+					<a href="#" id="overview">overview</a>
+					<a href="#" id="details" class="active">details</a>
+				</div>
+				<div class="product-specifications__info">
+					<div class="specifications-info__item">
+						<div><img src="img/detail-1.png" alt=""></div>
+						<h2>full face helmet</h2>
+					</div>
+					<div class="specifications-info__item">
+						<div><img src="img/detail-2.png" alt=""></div>
+						<h2>Anti fog technology</h2>
+					</div>
+					<div class="specifications-info__item">
+						<div><img src="img/detail-3.png" alt=""></div>
+						<h2>Aerodynamic</h2>
+					</div>
+				</div>
+				<div class="specifications-info__texts">
+					<p>RapidFire™ Shield Replacement System : Simple and secure shield ratchet system provides ultra-quick, tool-less removal and installation for efficient operations.</p>
+					<p>Aerodynamic shell structure for extreme performance at maximum speeds. <br>
+					Emergency Kit (Cheek Pads) for safe <br>
+					and quick rescue in emergency situation.</p>
+					<p>Wider eye port provides better peripheral vision for riders. <br>
+					Enhanced Shield Dual Lock System <br>
+					for high speed racing condition.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/scriptProduct.js"></script>
+	<script src="js.script.js"></script>
+</body>
+</html>

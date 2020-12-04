@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="header-top-fixed">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top__inner">
+						<div id="burger-btn"></div>
+						<div class="header__logo">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<nav class="header__nav">
+							<ul>
+								<li><a class="header__nav-item" href="index.html">home</a></li>
+								<span></span>
+								<li><a class="header__nav-item blog" href="#">blog</a></li>
+								<span></span>
+								<li id="category"><a class="header__nav-item category" href="category.html">category
+									<strong class="red-arrow"><img src="img/red-arrow.png" alt=""></strong></a>
+									<div class="category-after">
+										<ul class="category-after__inner">
+											<a href="#"><div><li><img src="img/category-1.png" alt="">full face helmet</li></div></a>
+											<hr>
+											<a href="#"><div><li><img src="img/category-2.png" alt="">modular helmet</li></div></a>
+											<hr>
+											<a href="#"><div><li><img src="img/category-3.png" alt="">half face helmet</li></div></a>
+										</ul>
+									</div>
+									
+								</li>
+								<span></span>
+								<li><a class="active header__nav-item" href="contacts.html">contacts</a></li>
+							</ul>
+						</nav>
+						<div class="header__sale">
+							<div class="header__sale_currency">
+								<div class="header__select">
+									<div class="arrow__down"><img src="img/red-arrow.png" alt=""></div>
+									<select id="Brand"> 
+										<option value="">USD</option>
+										<option value="">AMD</option>
+										<option value="">EURO</option>
+									</select>
+								</div>
+							</div>		
+							<div class="header__sale_search">
+								<input type="text" placeholder="SEARCH">
+								<i class="fas fa-search"></i>
+							</div>
+							<div class="header__sale_icons">
+								<a href="cart.html"><img src="img/cart.png" alt=""></a>
+								<a href="#"><img src="img/user.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>	
+	<hr>
+	<div class="contacts header-item">
+		<div class="contacts-left">
+			<hr>
+			<div class="contacts-inner">
+				<div class="contacts-inner__title">
+					<h1>get in touch with us to know how we can help</h1>
+				</div>
+				<form class="contacts-inner__form">
+					<div class="contacts-form__item">
+						<input required="" type="text" placeholder="NAME">
+					</div>
+					<div class="contacts-form__item">
+						<input required="" type="email" placeholder="EMAIL">
+					</div>
+					<div class="contacts-form__item">
+						<input required="" type="text" placeholder="COMPANY">
+					</div>
+					<div class="contacts-form__item">
+						<textarea placeholder="WRITE A FEW WORDS"></textarea>
+					</div>
+					<div class="contacts-form__item">
+						<input type="submit" value="send">
+					</div>
+				</form>
+				<p>Or call us at <a href="tel::+1 3456 0976"> +1 3456 0976</a></p>
+
+			</div>
+		</div>
+		
+		<div class="contacts-map">
+
+		</div>
+	</div>
+	<script src="js/scriptContacts.js"></script>
+	<script src="js/allScript.js"></script>
+</body>
+</html>
